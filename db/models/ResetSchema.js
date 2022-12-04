@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const VerifyUser = new mongoose.Schema({
+const ResetUser = new mongoose.Schema({
   uid: {
     type: String,
     required: true,
@@ -16,4 +16,4 @@ const VerifyUser = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("VerifyUser", VerifyUser);
+module.exports = mongoose.model("ResetUser", ResetUser);
